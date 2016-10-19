@@ -1,0 +1,121 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="RoadRunner_Map_Modify.css" rel="stylesheet" type="text/css">
+  </head><body>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span>RoadRunner</span>
+
+            <span><i class="fa fa-2x fa-ambulance fa-fw"></i></span>
+
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#">Gestion Comptes</a>
+            </li>
+            <li>
+              <a href="#">Gestion Routes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <img class="btn-success-fullHeight center-block img-rounded customFullWidth" src="Google Maps.PNG">
+          </div>
+          <div class="col-md-4">
+            <span>
+              <button class="accordion">
+                <span class="fa fa-caret-right"></span>
+                <b></b>Route 1
+                <i class="fa fa-3x fa-fw fa-minus customRed customAlignRight"></i>
+              </button>
+            </span>
+            <button class="accordion">
+              <span class="fa fa-caret-down"></span>
+              <b></b>Route 2
+              <i class="fa fa-3x fa-fw fa-minus customRed customAlignRight"></i>
+            </button>
+            <span>
+              <button class="accordion2 customIndented" id="point1Route1">
+                <span class="fa fa-caret-right"></span>
+                <b></b>Point 1 de la Route 2
+                <i class="fa fa-3x fa-fw fa-minus customRed customAlignRight customIndented"></i>
+              </button>
+            </span>
+            <span>
+              <button class="accordion2 customIndented" id="point1Route1">
+                <span class="fa fa-caret-down"></span>
+                <b></b>Point 2 de la Route 2</button>
+            </span>
+            <table class="table customIndented">
+              <tbody>
+                <tr>
+                  <td>Code postal</td>
+                  <td>
+                    <input type="text" class="form-control" id="pwd" value="H0H 0H0">
+                  </td>
+                </tr>
+                <tr>
+                  <td>Temps de déplacement (HH:MM)</td>
+                  <td>
+                    <input type="text" class="form-control" id="pwd" value="09:00">
+                  </td>
+                </tr>
+                <tr>
+                  <td>Temps de livraison (HH:MM)</td>
+                  <td>
+                    <input type="text" class="form-control" id="pwd" value="00:10">
+                  </td>
+                </tr>
+                <tr>
+                  <td>Biens à livrer</td>
+                  <td>
+                    <textarea class="form-control" rows="5" id="pwd" value="Test">Pomme Banane Figue</textarea>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+            <div class="customAlignLeft customIndented">
+              <i class="fa fa-3x fa-fw fa-minus customRed"></i>
+              <span class="label label-default">Enlever ce point</span>
+              <span class="customAlignRight">
+                <span class="label label-default">Ajouter nouveau point</span>
+                <i class="fa fa-3x fa-fw fa-plus customGreen"></i>
+              </span>
+            </div>
+            <button class="accordion">
+              <span class="fa fa-caret-right"></span>
+              <b></b>Route 3</button>
+            <div class="customAlignCenter">
+              <span>
+                <span class="label label-default">Ajouter nouvelle route</span>
+                <i class="fa fa-3x fa-fw fa-plus customBlue"></i>
+              </span>
+            </div>
+            <span class="customRed">
+              <i class="fa fa-fw fa-caret-left customRed"></i>Retour</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
